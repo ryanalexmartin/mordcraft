@@ -1,33 +1,17 @@
-----------------------------------MordhauContent----------------------------------
+# MordCraft version 0.1 
+(hopefully there will be a beta release candidate soon)
 
-Build: 10
+## --------------  Thanks  -------------
 
-This is all of Mordhaus content, including:
+2cool, for getting me going in the Mordhau modding scene.
+'Solved' because he always answered my questions
+varinathras, for helping me debug the GreedyMeshing algorithm
+ImpartialNumber, for helping with networked playtesting. (my #1 playtester)
+Cswic, for being one of the uSDK creators
 
-- Ai (Placeholders)
-- Animations (Raw Anims, Montage Placeholders, Blendspace Placeholders, AnimBP Placeholders)
-- Meshes(Skeletal and Static Meshes now including all the preorder/kickstarter gear + new veteran gear)
-- Materials
-- Textures
-- Sounds(Raw Sound clips, SoundCue Placeholders, Attenuation Placeholders, SoundMix Placeholders, Sound Class placeholders)
+## --------- Installation ----------------
 
-
-----------------------------------Installation----------------------------------
-
-To install just copy the content directory to your MyDocuments/UnrealProjects/Mordhau/ Folder
-
-
------------------------------------Final Notes-----------------------------------
-
-For blueprint placeholders please install the uSDK Minimal or Full packages.
-
-If a material doesnt work just double click it and make sure the correct textures are in the correct texture samples.
-
-If an animation goes black and complains about not having a skeleton just highlight all of the anims and retarget them to the correct skeleton.
-
-If a skeleton breaks just delete it and right click the skeletal mesh and click create skeleton.
-
------------------------------------Acknowledgments-----------------------------------
-
-Original Dump - Plou
-Build 10 additions + all placeholders - TheMattman
+Must first install UE4.20, and then get ahold of the Mordhau uSDK 1.1.
+Clone this git repo and merge this repo and the uSDK.  The uSDK
+is included in the .gitignore so all of those huge binary files (~10 GB)
+won't be tracked.
