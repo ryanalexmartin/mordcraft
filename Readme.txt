@@ -8,6 +8,7 @@
 varinathras, for helping me debug the GreedyMeshing algorithm
 ImpartialNumber, for helping with networked playtesting. (my #1 playtester)
 Cswic, for being one of the uSDK creators
+Froggy and KingOfTheEnd374 for helping with replication debugging
 
 ## --------- Installation ----------------
 
